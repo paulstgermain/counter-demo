@@ -1,0 +1,35 @@
+.frames {
+  border: 1px solid black;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 100px;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px rgba(33, 33, 33, 0.5);
+  outline: none;
+  transition: .2s;
+}
+
+.button:hover{
+box-shadow: none;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.block1, .block2{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block2 span {
+font-size: 42px;
+}
